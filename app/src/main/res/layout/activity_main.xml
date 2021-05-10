@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_text_view_height"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="@string/activity1_string"
+        android:textSize="24sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/textViewActivity1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_text_view_height"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="@string/activity2_string"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@id/textViewActivity1"
+        android:id="@+id/textViewActivity2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_text_view_height"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="@string/activity3_string"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@id/textViewActivity2"
+        android:id="@+id/textViewActivity3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_text_view_height"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="@string/activity4_string"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@id/textViewActivity3"
+        android:id="@+id/textViewActivity4"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

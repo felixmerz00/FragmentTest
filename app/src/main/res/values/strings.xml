@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FragmentTest</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="fragment1content">Content of fragment one</string>
+    <string name="fragment2content">Content of fragment two</string>
+    <string name="fragment3content">Content of fragment three</string>
+
+    <!-- name for Activity 1 -->
+    <string name="activity1_string">Activity 1</string>
+    <!-- name for Activity 2 -->
+    <string name="activity2_string">Activity 2</string>
+    <!-- name for Activity 3 -->
+    <string name="activity3_string">Activity 3</string>
+    <!-- name for Activity 4 -->
+    <string name="activity4_string">Activity 4</string>
+</resources>
