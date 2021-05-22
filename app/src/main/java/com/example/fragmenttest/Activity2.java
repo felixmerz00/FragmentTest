@@ -23,10 +23,9 @@ public class Activity2 extends AppCompatActivity {
         // Set the adapter onto the view pager
         viewPager.setAdapter(adapter);
 
-        // Give the Tablayout the ViewPager
+        // Give the TabLayout the ViewPager
         TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
         tabLayout.setupWithViewPager(viewPager);
-
 
     }
 }
