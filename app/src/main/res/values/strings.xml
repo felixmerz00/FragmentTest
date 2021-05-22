@@ -2,6 +2,10 @@
     <string name="app_name">FragmentTest</string>
     <!-- TODO: Remove or change this placeholder text -->
 
+    <string name="titleFragment1">Fragment 1</string>
+    <string name="titleFragment2">Fragment 2</string>
+    <string name="titleFragment3">Fragment 3</string>
+
     <string name="fragment1content">Content of fragment one</string>
     <string name="fragment2content">Content of fragment two</string>
     <string name="fragment3content">Content of fragment three</string>
